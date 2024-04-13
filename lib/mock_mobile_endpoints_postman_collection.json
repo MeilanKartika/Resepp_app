@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "fb0431a1-ce56-4d4b-b473-754d3f583e96",
+		"name": "mock-mobile-endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3140692"
+	},
+	"item": [
+		{
+			"name": "news",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6617c206ed6b8fa43483b2c1.mockapi.io/api/v1/news",
+					"protocol": "https",
+					"host": [
+						"6617c206ed6b8fa43483b2c1",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6617c206ed6b8fa43483b2c1.mockapi.io/api/v1/news/:id",
+					"protocol": "https",
+					"host": [
+						"6617c206ed6b8fa43483b2c1",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"news",
+						":id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Test post news mock\",\n    \"body\": \"Test body mock news\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://6617c206ed6b8fa43483b2c1.mockapi.io/api/v1/news",
+					"protocol": "https",
+					"host": [
+						"6617c206ed6b8fa43483b2c1",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"news"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Edit Title mock news\",\n    \"body\": \"Test body mock news\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://6617c206ed6b8fa43483b2c1.mockapi.io/api/v1/news/:id",
+					"protocol": "https",
+					"host": [
+						"6617c206ed6b8fa43483b2c1",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"news",
+						":id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "news/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Edit Title mock news\",\n    \"body\": \"Test body mock news\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://6617c206ed6b8fa43483b2c1.mockapi.io/api/v1/news/:id",
+					"protocol": "https",
+					"host": [
+						"6617c206ed6b8fa43483b2c1",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"news",
+						":id"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

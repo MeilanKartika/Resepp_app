@@ -1,0 +1,4 @@
+{
+    "git.requireGitUserConfig": true,
+    "git.decorations.enabled": false
+}
